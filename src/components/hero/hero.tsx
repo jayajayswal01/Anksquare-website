@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './hero.module.css';
-import { FaReact, FaMobile, FaSearch, FaCode } from 'react-icons/fa';
+import { FaMobile, FaSearch, FaCode } from 'react-icons/fa';
 import { MdAccountBalance } from 'react-icons/md';
 
 const Hero = () => {

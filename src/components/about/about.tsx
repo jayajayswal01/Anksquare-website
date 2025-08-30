@@ -36,15 +36,15 @@ const About = () => {
             
             <div className={styles.description}>
               <p>
-                At Anksquare, we're passionate about delivering cutting-edge digital solutions 
+                At Anksquare, we&apos; passionate about delivering cutting-edge digital solutions 
                 that help businesses thrive in the modern digital landscape. With our comprehensive 
                 suite of services including web development, app creation, SEO optimization, and 
-                strategic account management, we're your one-stop destination for digital transformation.
+                strategic account management, we&apos; your one-stop destination for digital transformation.
               </p>
               <p>
                 Our team of experts combines technical expertise with creative innovation to deliver 
-                solutions that not only meet but exceed our clients' expectations. We believe in 
-                building long-term partnerships and ensuring our clients' success in the digital world.
+                solutions that not only meet but exceed our clients&apos; expectations. We believe in 
+                building long-term partnerships and ensuring our clients&apos; success in the digital world.
               </p>
             </div>
 

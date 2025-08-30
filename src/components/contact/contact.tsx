@@ -58,7 +58,7 @@ const Contact = () => {
         <div className={styles.header}>
           <h2 className={styles.title}>Get in Touch</h2>
           <p className={styles.subtitle}>
-            Ready to transform your digital presence? Let's discuss how we can help you achieve your goals.
+            Ready to transform your digital presence? Let&apos; discuss how we can help you achieve your goals.
           </p>
         </div>
 
