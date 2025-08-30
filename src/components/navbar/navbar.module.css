@@ -1,0 +1,154 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #7c3aed, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+
+.desktopNav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .desktopNav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.navLink {
+  color: #374151;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: #7c3aed;
+  transform: scale(1.1);
+}
+
+.servicesButton {
+  color: #374151;
+  transition: color 0.2s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.servicesButton:hover {
+  color: #7c3aed;
+}
+
+.servicesDropdown {
+  position: absolute;
+  width: 14rem;
+  margin-top: 0.75rem;
+  margin-left: -1rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dropdownItem {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.dropdownItem:hover {
+  background: #f5f3ff;
+  color: #7c3aed;
+}
+
+.contactButton {
+  background: linear-gradient(to right, #7c3aed, #3b82f6);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.contactButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.mobileNav {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.mobileMenuItem {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #374151;
+  transition: color 0.2s ease;
+}
+
+.mobileMenuItem:hover {
+  color: #7c3aed;
+}
+
+.menuButton {
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  color: #374151;
+  transition: color 0.2s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuButton:hover {
+  color: #7c3aed;
+}
