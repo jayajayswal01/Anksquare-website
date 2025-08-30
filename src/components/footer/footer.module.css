@@ -1,6 +1,6 @@
 .footer {
-  background: linear-gradient(to bottom, #ffffff, rgba(79, 70, 229, 0.05));
-  color: #1e293b;
+  background: linear-gradient(to bottom, white);
+  color: #7b91b5;
 }
 
 .topSection {
@@ -35,7 +35,7 @@
 }
 
 .description {
-  color: #d6dae0;
+  color: #090a0b;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -50,7 +50,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  color: #d6dae0;
+  color: #090a0b;
   transition: color 0.3s ease;
 }
 
@@ -86,7 +86,7 @@
 
 .footerLinks a {
   list-style: none;
-  color: #d6dae0;
+  color: #090a0b;
   text-decoration: none;
   transition: all 0.3s ease;
   display: inline-block;
@@ -128,7 +128,7 @@
 }
 
 .newsletter p {
-  color: #d6dae0;
+  color: #090a0b;
   margin-bottom: 1.5rem;
 }
 
@@ -210,7 +210,7 @@
 }
 
 .copyright {
-  color: #d6dae0;
+  color: #090a0b;
 }
 
 .bottomLinks {
@@ -219,7 +219,7 @@
 }
 
 .bottomLinks a {
-  color: #d6dae0;
+  color: #090a0b;
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 0.9rem;
